@@ -1,9 +1,5 @@
 package com.hoteldroidranger.hoteldroid.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -15,10 +11,17 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.hoteldroidranger.hoteldroid.R;
 import com.hoteldroidranger.hoteldroid.adapter.MainAdapter;
 import com.hoteldroidranger.hoteldroid.decoration.LayoutMarginDecoration;
 import com.hoteldroidranger.hoteldroid.model.ModelMain;
+import com.hoteldroidranger.hoteldroid.order.OrderActivity;
 import com.hoteldroidranger.hoteldroid.utils.Tools;
 
 import java.util.ArrayList;
@@ -27,7 +30,8 @@ import java.util.Date;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements MainAdapter.onSelectData {
-
+    public static final String EXTRA_MESSAGE = "com.example.android.hoteldroidranger.hoteldroid.activities.extra.MESSAGE";
+    private String mOrderMessage;
     RecyclerView rvMainMenu;
     LayoutMarginDecoration gridMargin;
     ModelMain mdlMainMenu;
@@ -35,10 +39,13 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
     TextView tvToday;
     String hariIni;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.toolbar_hotel);
+        setSupportActionBar(toolbar);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             getWindow().getDecorView().setSystemUiVisibility
@@ -65,6 +72,16 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
         hariIni = (String) DateFormat.format("EEEE", dateNow);
         getToday();
         setMenu();
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+                intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
+                startActivity(intent);
+            }
+        });
     }
 
     private void getToday() {

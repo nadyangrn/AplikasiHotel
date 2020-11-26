@@ -6,7 +6,11 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="449dccf2-22e2-44df-a2e0-5bafb8df0af4" name="Default Changelist" comment="" />
+    <list default="true" id="449dccf2-22e2-44df-a2e0-5bafb8df0af4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hoteldroidranger/hoteldroid/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hoteldroidranger/hoteldroid/activities/MainActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +32,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ieRyy5TiiFoCzTAn1aJ9WWp4c9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DroidCafeInput" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -121,14 +131,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606371534375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606371534375" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602267803886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602267803886" />
-    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1606278494293">
+    <state x="263" y="119" key="AndroidCreateResourceDirectoryDialog" timestamp="1606371174105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606278494293" />
+    <state x="263" y="119" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1606371174105" />
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1606371042942">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1606371042942" />
+    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1606369731425">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606369731425" />
     <state x="539" y="257" key="Github.ShareDialog" timestamp="1606204970689">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -141,10 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1606278415357" />
-    <state x="716" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1606274517225">
+    <state x="716" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1606369242708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="716" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1606274517225" />
+    <state x="716" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1606369242708" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602269304893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
