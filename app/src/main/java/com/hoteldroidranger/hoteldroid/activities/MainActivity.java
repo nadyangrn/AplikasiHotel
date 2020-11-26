@@ -6,10 +6,12 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.format.DateFormat;
+import android.view.Menu;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -83,7 +85,12 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
             }
         });
     }
-
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
     private void getToday() {
         Date date = Calendar.getInstance().getTime();
         String tanggal = (String) DateFormat.format("d MMMM yyyy", date);
@@ -120,5 +127,21 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
             winParams.flags &= ~bits;
         }
         win.setAttributes(winParams);
+    }
+    public void displayToast(String message) {
+        Toast.makeText(getApplicationContext(), message,
+                Toast.LENGTH_SHORT).show();
+    }
+    public void showDonutOrder(View view) {
+        mOrderMessage = getString(R.string.donut_order_message);
+        displayToast(mOrderMessage);
+    }
+    public void showIceCreamOrder(View view) {
+        mOrderMessage = getString(R.string.ice_cream_order_message);
+        displayToast(mOrderMessage);
+    }
+    public void showFroyoOrder(View view) {
+        mOrderMessage = getString(R.string.froyo_order_message);
+        displayToast(mOrderMessage);
     }
 }
