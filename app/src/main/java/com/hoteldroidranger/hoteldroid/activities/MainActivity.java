@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
     }
 
     private void setMenu() {
-        mdlMainMenu = new ModelMain("Daftar Hotel", R.drawable.hotels);
+        mdlMainMenu = new ModelMain("Daftar Hotel", R.drawable.ic_hotel);
         lsMainMenu.add(mdlMainMenu);
 
         MainAdapter myAdapter = new MainAdapter(lsMainMenu, this);
