@@ -23,7 +23,6 @@ import com.hoteldroidranger.hoteldroid.R;
 import com.hoteldroidranger.hoteldroid.adapter.MainAdapter;
 import com.hoteldroidranger.hoteldroid.decoration.LayoutMarginDecoration;
 import com.hoteldroidranger.hoteldroid.model.ModelMain;
-import com.hoteldroidranger.hoteldroid.order.OrderActivity;
 import com.hoteldroidranger.hoteldroid.utils.Tools;
 
 import java.util.ArrayList;
@@ -74,12 +73,7 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
         setMenu();
 
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+    
     private void getToday() {
         Date date = Calendar.getInstance().getTime();
         String tanggal = (String) DateFormat.format("d MMMM yyyy", date);
