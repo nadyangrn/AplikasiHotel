@@ -37,26 +37,6 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp" />
 
-                <include
-                    layout="@layout/activity_detail_hotel"
-                    android:layout_width="8dp"
-                    android:layout_height="0dp" />
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/fab"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignStart="@+id/rvMainMenu"
-                    android:layout_alignTop="@+id/rvMainMenu"
-                    android:layout_alignEnd="@+id/rvMainMenu"
-                    android:layout_alignBottom="@+id/rvMainMenu"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginStart="311dp"
-                    android:layout_marginTop="294dp"
-                    android:layout_marginEnd="25dp"
-                    android:layout_marginBottom="-155dp"
-                    app:backgroundTint="#9C27B0"
-                    app:srcCompat="@drawable/ic_shopping_cart" />
 
             </RelativeLayout>
 

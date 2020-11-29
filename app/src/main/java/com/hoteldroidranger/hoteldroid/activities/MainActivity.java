@@ -32,8 +32,6 @@ import java.util.Date;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements MainAdapter.onSelectData {
-    public static final String EXTRA_MESSAGE = "com.example.android.hoteldroidranger.hoteldroid.activities.extra.MESSAGE";
-    private String mOrderMessage;
     RecyclerView rvMainMenu;
     LayoutMarginDecoration gridMargin;
     ModelMain mdlMainMenu;
@@ -75,15 +73,6 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
         getToday();
         setMenu();
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
-                intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
-                startActivity(intent);
-            }
-        });
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -127,21 +116,5 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
             winParams.flags &= ~bits;
         }
         win.setAttributes(winParams);
-    }
-    public void displayToast(String message) {
-        Toast.makeText(getApplicationContext(), message,
-                Toast.LENGTH_SHORT).show();
-    }
-    public void showDonutOrder(View view) {
-        mOrderMessage = getString(R.string.donut_order_message);
-        displayToast(mOrderMessage);
-    }
-    public void showIceCreamOrder(View view) {
-        mOrderMessage = getString(R.string.ice_cream_order_message);
-        displayToast(mOrderMessage);
-    }
-    public void showFroyoOrder(View view) {
-        mOrderMessage = getString(R.string.froyo_order_message);
-        displayToast(mOrderMessage);
     }
 }
