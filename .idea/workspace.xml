@@ -6,7 +6,9 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="449dccf2-22e2-44df-a2e0-5bafb8df0af4" name="Default Changelist" comment="" />
+    <list default="true" id="449dccf2-22e2-44df-a2e0-5bafb8df0af4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1602266329261</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cancel Order">
+      <created>1606638317555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606638317555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +152,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cancel Order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cancel Order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606371534375">
@@ -164,6 +178,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="541" y="177" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1606374269783" />
+    <state x="289" y="0" key="CommitChangelistDialog2" timestamp="1606638311890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="289" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606638311890" />
     <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1606372967849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -172,10 +190,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="539" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1606204970689" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1606372799368">
+    <state x="184" y="6" key="SettingsEditor" timestamp="1606639014363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606372799368" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606639014363" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606638412727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606638412727" />
     <state x="499" y="142" key="chooseDestDirectoryDialog" timestamp="1606374991400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -188,6 +210,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="716" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1606369242708" />
+    <state x="371" y="155" key="git4idea.merge.GitPullDialog" timestamp="1606638817453">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="371" y="155" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1606638817453" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1606374069815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
